@@ -1,6 +1,4 @@
-
-    import java.util.*;
-
+import java.util.*;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -15,7 +13,6 @@ public class Main {
                 if (j < i) {
                     System.out.print(" ");
                 }
-
                 num = num * (i - j) / (j + 1);
             }
             System.out.println();
