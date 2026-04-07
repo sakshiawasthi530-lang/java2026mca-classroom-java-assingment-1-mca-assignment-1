@@ -1,4 +1,4 @@
-package.q02
+
     import java.util.*;
 
 public class Main {
