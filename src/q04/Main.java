@@ -1,8 +1,5 @@
 import java.util.*;
-
 public class Main {
-
-    
     public static boolean isPrime(int num) {
         if (num <= 1) return false;
         for (int i = 2; i * i <= num; i++) {
@@ -10,8 +7,6 @@ public class Main {
         }
         return true;
     }
-
-    
     public static boolean isPerfect(int num) {
         if (num <= 1) return false;
         int sum = 0;
@@ -22,7 +17,6 @@ public class Main {
         }
         return sum == num;
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -32,7 +26,6 @@ public class Main {
 
             boolean prime = isPrime(num);
             boolean perfect = isPerfect(num);
-
             if (prime && perfect) {
                 System.out.println("Both");
             } else if (prime) {
