@@ -1,4 +1,5 @@
-import java.util.*;
+package.q03
+    import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,8 +13,6 @@ public class Main {
         int num = 1;
 
         while (top <= bottom && left <= right) {
-
-            // Top row
             for (int i = left; i <= right; i++) {
                 arr[top][i] = num++;
             }
