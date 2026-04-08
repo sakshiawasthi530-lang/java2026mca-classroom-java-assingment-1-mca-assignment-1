@@ -10,7 +10,6 @@ public class Main {
 
         for (int i = 0; i < n; i++) {
             String op = sc.next();
-
             if (op.equals("PUSH")) {
                 int x = sc.nextInt();
                 top++;
